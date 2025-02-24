@@ -1,0 +1,17 @@
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava12\Tehtava12\obj\Debug\net6.0-windows\Tehtava12.Form1.resources
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava12\Tehtava12\obj\Debug\net6.0-windows\Tehtava12.csproj.GenerateResource.cache
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava12\Tehtava12\obj\Debug\net6.0-windows\Tehtava12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava12\Tehtava12\obj\Debug\net6.0-windows\Tehtava12.AssemblyInfoInputs.cache
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava12\Tehtava12\obj\Debug\net6.0-windows\Tehtava12.AssemblyInfo.cs
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava12\Tehtava12\obj\Debug\net6.0-windows\Tehtava12.csproj.CoreCompileInputs.cache
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava12\Tehtava12\obj\Debug\net6.0-windows\Tehtava12.sourcelink.json
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava12\Tehtava12\bin\Debug\net6.0-windows\Tehtava12.exe
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava12\Tehtava12\bin\Debug\net6.0-windows\Tehtava12.deps.json
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava12\Tehtava12\bin\Debug\net6.0-windows\Tehtava12.runtimeconfig.json
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava12\Tehtava12\bin\Debug\net6.0-windows\Tehtava12.dll
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava12\Tehtava12\bin\Debug\net6.0-windows\Tehtava12.pdb
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava12\Tehtava12\obj\Debug\net6.0-windows\Tehtava12.dll
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava12\Tehtava12\obj\Debug\net6.0-windows\refint\Tehtava12.dll
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava12\Tehtava12\obj\Debug\net6.0-windows\Tehtava12.pdb
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava12\Tehtava12\obj\Debug\net6.0-windows\Tehtava12.genruntimeconfig.cache
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava12\Tehtava12\obj\Debug\net6.0-windows\ref\Tehtava12.dll
