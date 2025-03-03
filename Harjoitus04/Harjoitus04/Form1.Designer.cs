@@ -28,99 +28,94 @@
         /// </summary>
         private void InitializeComponent()
         {
-            dateTimePicker1 = new DateTimePicker();
-            button1 = new Button();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
+            SynttariDT = new DateTimePicker();
+            LaskeBT = new Button();
+            VuosissaLB = new Label();
+            KuukausissaLB = new Label();
+            PaivissaLB = new Label();
+            TunnissaLB = new Label();
+            MinuuteissaLB = new Label();
+            SekunneissaLB = new Label();
             SuspendLayout();
             // 
-            // dateTimePicker1
+            // SynttariDT
             // 
-            dateTimePicker1.Location = new Point(214, 67);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(297, 30);
-            dateTimePicker1.TabIndex = 0;
+            SynttariDT.Location = new Point(190, 58);
+            SynttariDT.Name = "SynttariDT";
+            SynttariDT.Size = new Size(264, 27);
+            SynttariDT.TabIndex = 0;
             // 
-            // button1
+            // LaskeBT
             // 
-            button1.Location = new Point(553, 67);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 1;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            LaskeBT.Location = new Point(492, 58);
+            LaskeBT.Name = "LaskeBT";
+            LaskeBT.Size = new Size(84, 25);
+            LaskeBT.TabIndex = 1;
+            LaskeBT.Text = "Laske";
+            LaskeBT.UseVisualStyleBackColor = true;
+            LaskeBT.Click += LaskeBT_Click;
             // 
-            // label1
+            // VuosissaLB
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(214, 122);
-            label1.Name = "label1";
-            label1.Size = new Size(55, 23);
-            label1.TabIndex = 2;
-            label1.Text = "label1";
+            VuosissaLB.AutoSize = true;
+            VuosissaLB.Location = new Point(190, 106);
+            VuosissaLB.Name = "VuosissaLB";
+            VuosissaLB.Size = new Size(0, 20);
+            VuosissaLB.TabIndex = 2;
             // 
-            // label2
+            // KuukausissaLB
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(214, 162);
-            label2.Name = "label2";
-            label2.Size = new Size(55, 23);
-            label2.TabIndex = 3;
-            label2.Text = "label2";
+            KuukausissaLB.AutoSize = true;
+            KuukausissaLB.Location = new Point(190, 141);
+            KuukausissaLB.Name = "KuukausissaLB";
+            KuukausissaLB.Size = new Size(0, 20);
+            KuukausissaLB.TabIndex = 3;
             // 
-            // label3
+            // PaivissaLB
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(214, 198);
-            label3.Name = "label3";
-            label3.Size = new Size(55, 23);
-            label3.TabIndex = 4;
-            label3.Text = "label3";
+            PaivissaLB.AutoSize = true;
+            PaivissaLB.Location = new Point(190, 172);
+            PaivissaLB.Name = "PaivissaLB";
+            PaivissaLB.Size = new Size(0, 20);
+            PaivissaLB.TabIndex = 4;
             // 
-            // label4
+            // TunnissaLB
             // 
-            label4.AutoSize = true;
-            label4.Location = new Point(351, 122);
-            label4.Name = "label4";
-            label4.Size = new Size(55, 23);
-            label4.TabIndex = 5;
-            label4.Text = "label4";
+            TunnissaLB.AutoSize = true;
+            TunnissaLB.Location = new Point(312, 106);
+            TunnissaLB.Name = "TunnissaLB";
+            TunnissaLB.Size = new Size(0, 20);
+            TunnissaLB.TabIndex = 5;
             // 
-            // label5
+            // MinuuteissaLB
             // 
-            label5.AutoSize = true;
-            label5.Location = new Point(351, 162);
-            label5.Name = "label5";
-            label5.Size = new Size(55, 23);
-            label5.TabIndex = 6;
-            label5.Text = "label5";
+            MinuuteissaLB.AutoSize = true;
+            MinuuteissaLB.Location = new Point(312, 141);
+            MinuuteissaLB.Name = "MinuuteissaLB";
+            MinuuteissaLB.Size = new Size(0, 20);
+            MinuuteissaLB.TabIndex = 6;
             // 
-            // label6
+            // SekunneissaLB
             // 
-            label6.AutoSize = true;
-            label6.Location = new Point(351, 198);
-            label6.Name = "label6";
-            label6.Size = new Size(55, 23);
-            label6.TabIndex = 7;
-            label6.Text = "label6";
+            SekunneissaLB.AutoSize = true;
+            SekunneissaLB.Location = new Point(312, 172);
+            SekunneissaLB.Name = "SekunneissaLB";
+            SekunneissaLB.Size = new Size(0, 20);
+            SekunneissaLB.TabIndex = 7;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(9F, 23F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(label6);
-            Controls.Add(label5);
-            Controls.Add(label4);
-            Controls.Add(label3);
-            Controls.Add(label2);
-            Controls.Add(label1);
-            Controls.Add(button1);
-            Controls.Add(dateTimePicker1);
+            ClientSize = new Size(711, 391);
+            Controls.Add(SekunneissaLB);
+            Controls.Add(MinuuteissaLB);
+            Controls.Add(TunnissaLB);
+            Controls.Add(PaivissaLB);
+            Controls.Add(KuukausissaLB);
+            Controls.Add(VuosissaLB);
+            Controls.Add(LaskeBT);
+            Controls.Add(SynttariDT);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -129,13 +124,13 @@
 
         #endregion
 
-        private DateTimePicker dateTimePicker1;
-        private Button button1;
-        private Label label1;
-        private Label label2;
-        private Label label3;
-        private Label label4;
-        private Label label5;
-        private Label label6;
+        private DateTimePicker SynttariDT;
+        private Button LaskeBT;
+        private Label VuosissaLB;
+        private Label KuukausissaLB;
+        private Label PaivissaLB;
+        private Label TunnissaLB;
+        private Label MinuuteissaLB;
+        private Label SekunneissaLB;
     }
 }

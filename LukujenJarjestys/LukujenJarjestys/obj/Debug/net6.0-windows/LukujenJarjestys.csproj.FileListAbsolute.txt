@@ -1,0 +1,17 @@
+C:\Users\samps\sorsa\C-_Graafinen\LukujenJarjestys\LukujenJarjestys\bin\Debug\net6.0-windows\LukujenJarjestys.exe
+C:\Users\samps\sorsa\C-_Graafinen\LukujenJarjestys\LukujenJarjestys\bin\Debug\net6.0-windows\LukujenJarjestys.deps.json
+C:\Users\samps\sorsa\C-_Graafinen\LukujenJarjestys\LukujenJarjestys\bin\Debug\net6.0-windows\LukujenJarjestys.runtimeconfig.json
+C:\Users\samps\sorsa\C-_Graafinen\LukujenJarjestys\LukujenJarjestys\bin\Debug\net6.0-windows\LukujenJarjestys.dll
+C:\Users\samps\sorsa\C-_Graafinen\LukujenJarjestys\LukujenJarjestys\bin\Debug\net6.0-windows\LukujenJarjestys.pdb
+C:\Users\samps\sorsa\C-_Graafinen\LukujenJarjestys\LukujenJarjestys\obj\Debug\net6.0-windows\LukujenJarjestys.LukujenJarjestys.resources
+C:\Users\samps\sorsa\C-_Graafinen\LukujenJarjestys\LukujenJarjestys\obj\Debug\net6.0-windows\LukujenJarjestys.csproj.GenerateResource.cache
+C:\Users\samps\sorsa\C-_Graafinen\LukujenJarjestys\LukujenJarjestys\obj\Debug\net6.0-windows\LukujenJarjestys.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samps\sorsa\C-_Graafinen\LukujenJarjestys\LukujenJarjestys\obj\Debug\net6.0-windows\LukujenJarjestys.AssemblyInfoInputs.cache
+C:\Users\samps\sorsa\C-_Graafinen\LukujenJarjestys\LukujenJarjestys\obj\Debug\net6.0-windows\LukujenJarjestys.AssemblyInfo.cs
+C:\Users\samps\sorsa\C-_Graafinen\LukujenJarjestys\LukujenJarjestys\obj\Debug\net6.0-windows\LukujenJarjestys.csproj.CoreCompileInputs.cache
+C:\Users\samps\sorsa\C-_Graafinen\LukujenJarjestys\LukujenJarjestys\obj\Debug\net6.0-windows\LukujenJarjestys.sourcelink.json
+C:\Users\samps\sorsa\C-_Graafinen\LukujenJarjestys\LukujenJarjestys\obj\Debug\net6.0-windows\LukujenJarjestys.dll
+C:\Users\samps\sorsa\C-_Graafinen\LukujenJarjestys\LukujenJarjestys\obj\Debug\net6.0-windows\refint\LukujenJarjestys.dll
+C:\Users\samps\sorsa\C-_Graafinen\LukujenJarjestys\LukujenJarjestys\obj\Debug\net6.0-windows\LukujenJarjestys.pdb
+C:\Users\samps\sorsa\C-_Graafinen\LukujenJarjestys\LukujenJarjestys\obj\Debug\net6.0-windows\LukujenJarjestys.genruntimeconfig.cache
+C:\Users\samps\sorsa\C-_Graafinen\LukujenJarjestys\LukujenJarjestys\obj\Debug\net6.0-windows\ref\LukujenJarjestys.dll
