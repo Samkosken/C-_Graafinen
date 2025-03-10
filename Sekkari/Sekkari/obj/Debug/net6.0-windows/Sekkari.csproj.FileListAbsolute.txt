@@ -1,0 +1,17 @@
+C:\Users\samps\sorsa\C-_Graafinen\Sekkari\Sekkari\bin\Debug\net6.0-windows\Sekkari.exe
+C:\Users\samps\sorsa\C-_Graafinen\Sekkari\Sekkari\bin\Debug\net6.0-windows\Sekkari.deps.json
+C:\Users\samps\sorsa\C-_Graafinen\Sekkari\Sekkari\bin\Debug\net6.0-windows\Sekkari.runtimeconfig.json
+C:\Users\samps\sorsa\C-_Graafinen\Sekkari\Sekkari\bin\Debug\net6.0-windows\Sekkari.dll
+C:\Users\samps\sorsa\C-_Graafinen\Sekkari\Sekkari\bin\Debug\net6.0-windows\Sekkari.pdb
+C:\Users\samps\sorsa\C-_Graafinen\Sekkari\Sekkari\obj\Debug\net6.0-windows\Sekkari.sekkariFM.resources
+C:\Users\samps\sorsa\C-_Graafinen\Sekkari\Sekkari\obj\Debug\net6.0-windows\Sekkari.csproj.GenerateResource.cache
+C:\Users\samps\sorsa\C-_Graafinen\Sekkari\Sekkari\obj\Debug\net6.0-windows\Sekkari.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samps\sorsa\C-_Graafinen\Sekkari\Sekkari\obj\Debug\net6.0-windows\Sekkari.AssemblyInfoInputs.cache
+C:\Users\samps\sorsa\C-_Graafinen\Sekkari\Sekkari\obj\Debug\net6.0-windows\Sekkari.AssemblyInfo.cs
+C:\Users\samps\sorsa\C-_Graafinen\Sekkari\Sekkari\obj\Debug\net6.0-windows\Sekkari.csproj.CoreCompileInputs.cache
+C:\Users\samps\sorsa\C-_Graafinen\Sekkari\Sekkari\obj\Debug\net6.0-windows\Sekkari.sourcelink.json
+C:\Users\samps\sorsa\C-_Graafinen\Sekkari\Sekkari\obj\Debug\net6.0-windows\Sekkari.dll
+C:\Users\samps\sorsa\C-_Graafinen\Sekkari\Sekkari\obj\Debug\net6.0-windows\refint\Sekkari.dll
+C:\Users\samps\sorsa\C-_Graafinen\Sekkari\Sekkari\obj\Debug\net6.0-windows\Sekkari.pdb
+C:\Users\samps\sorsa\C-_Graafinen\Sekkari\Sekkari\obj\Debug\net6.0-windows\Sekkari.genruntimeconfig.cache
+C:\Users\samps\sorsa\C-_Graafinen\Sekkari\Sekkari\obj\Debug\net6.0-windows\ref\Sekkari.dll

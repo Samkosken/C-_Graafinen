@@ -1,0 +1,17 @@
+C:\Users\samps\sorsa\C-_Graafinen\Ajastin\Ajastin\obj\Debug\net6.0-windows\Ajastin.LaskuriForm.resources
+C:\Users\samps\sorsa\C-_Graafinen\Ajastin\Ajastin\obj\Debug\net6.0-windows\Ajastin.csproj.GenerateResource.cache
+C:\Users\samps\sorsa\C-_Graafinen\Ajastin\Ajastin\obj\Debug\net6.0-windows\Ajastin.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samps\sorsa\C-_Graafinen\Ajastin\Ajastin\obj\Debug\net6.0-windows\Ajastin.AssemblyInfoInputs.cache
+C:\Users\samps\sorsa\C-_Graafinen\Ajastin\Ajastin\obj\Debug\net6.0-windows\Ajastin.AssemblyInfo.cs
+C:\Users\samps\sorsa\C-_Graafinen\Ajastin\Ajastin\obj\Debug\net6.0-windows\Ajastin.csproj.CoreCompileInputs.cache
+C:\Users\samps\sorsa\C-_Graafinen\Ajastin\Ajastin\obj\Debug\net6.0-windows\Ajastin.sourcelink.json
+C:\Users\samps\sorsa\C-_Graafinen\Ajastin\Ajastin\bin\Debug\net6.0-windows\Ajastin.exe
+C:\Users\samps\sorsa\C-_Graafinen\Ajastin\Ajastin\bin\Debug\net6.0-windows\Ajastin.deps.json
+C:\Users\samps\sorsa\C-_Graafinen\Ajastin\Ajastin\bin\Debug\net6.0-windows\Ajastin.runtimeconfig.json
+C:\Users\samps\sorsa\C-_Graafinen\Ajastin\Ajastin\bin\Debug\net6.0-windows\Ajastin.dll
+C:\Users\samps\sorsa\C-_Graafinen\Ajastin\Ajastin\bin\Debug\net6.0-windows\Ajastin.pdb
+C:\Users\samps\sorsa\C-_Graafinen\Ajastin\Ajastin\obj\Debug\net6.0-windows\Ajastin.dll
+C:\Users\samps\sorsa\C-_Graafinen\Ajastin\Ajastin\obj\Debug\net6.0-windows\refint\Ajastin.dll
+C:\Users\samps\sorsa\C-_Graafinen\Ajastin\Ajastin\obj\Debug\net6.0-windows\Ajastin.pdb
+C:\Users\samps\sorsa\C-_Graafinen\Ajastin\Ajastin\obj\Debug\net6.0-windows\Ajastin.genruntimeconfig.cache
+C:\Users\samps\sorsa\C-_Graafinen\Ajastin\Ajastin\obj\Debug\net6.0-windows\ref\Ajastin.dll

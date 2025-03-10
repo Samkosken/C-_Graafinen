@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{F6A78ED2-21A2-4CFC-83ED-191FC4950FD3}|Tehtava11\\Tehtava11.csproj|solutionrelative:tehtava11\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6A78ED2-21A2-4CFC-83ED-191FC4950FD3}|Tehtava11\\Tehtava11.csproj|c:\\users\\samps\\sorsa\\c-_graafinen\\tehtava11\\tehtava11\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F6A78ED2-21A2-4CFC-83ED-191FC4950FD3}|Tehtava11\\Tehtava11.csproj|C:\\Users\\samps\\sorsa\\C-_Graafinen\\Tehtava11\\tehtava11\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F6A78ED2-21A2-4CFC-83ED-191FC4950FD3}|Tehtava11\\Tehtava11.csproj|solutionrelative:tehtava11\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Tehtava11\\Form1.cs",
               "ToolTip": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\Tehtava11\\Tehtava11\\Form1.cs",
               "RelativeToolTip": "Tehtava11\\Form1.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAgwDQAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-24T07:33:01.039Z",
               "EditorCaption": ""
@@ -42,8 +42,7 @@
               "ToolTip": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\Tehtava11\\Tehtava11\\Form1.cs [Design]",
               "RelativeToolTip": "Tehtava11\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T06:47:37.195Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-24T06:47:37.195Z"
             }
           ]
         }

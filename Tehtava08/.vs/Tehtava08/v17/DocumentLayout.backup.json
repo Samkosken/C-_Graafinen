@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\Tehtava08\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60249346-6661-46FB-9477-BAADDD4E3419}|Tehtava08\\Tehtava08.csproj|c:\\users\\samps\\sorsa\\c-_graafinen\\tehtava08\\tehtava08\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60249346-6661-46FB-9477-BAADDD4E3419}|Tehtava08\\Tehtava08.csproj|solutionrelative:tehtava08\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60249346-6661-46FB-9477-BAADDD4E3419}|Tehtava08\\Tehtava08.csproj|c:\\users\\samps\\sorsa\\c-_graafinen\\tehtava08\\tehtava08\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{60249346-6661-46FB-9477-BAADDD4E3419}|Tehtava08\\Tehtava08.csproj|solutionrelative:tehtava08\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\Tehtava08\\Tehtava08\\Form1.cs",
+              "RelativeDocumentMoniker": "Tehtava08\\Form1.cs",
+              "ToolTip": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\Tehtava08\\Tehtava08\\Form1.cs",
+              "RelativeToolTip": "Tehtava08\\Form1.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwLkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T06:56:46.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\Tehtava08\\Tehtava08\\Form1.cs",
+              "RelativeDocumentMoniker": "Tehtava08\\Form1.cs",
+              "ToolTip": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\Tehtava08\\Tehtava08\\Form1.cs [Design]",
+              "RelativeToolTip": "Tehtava08\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T06:43:21.142Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
