@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{11F62607-F6F3-4382-AF28-2538B8A7597D}|Ajastin\\Ajastin.csproj|solutionrelative:ajastin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{11F62607-F6F3-4382-AF28-2538B8A7597D}|Ajastin\\Ajastin.csproj|c:\\users\\samps\\sorsa\\c-_graafinen\\ajastin\\ajastin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{11F62607-F6F3-4382-AF28-2538B8A7597D}|Ajastin\\Ajastin.csproj|C:\\Users\\samps\\sorsa\\C-_Graafinen\\Ajastin\\ajastin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{11F62607-F6F3-4382-AF28-2538B8A7597D}|Ajastin\\Ajastin.csproj|solutionrelative:ajastin\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Ajastin\\Form1.cs",
               "ToolTip": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\Ajastin\\Ajastin\\Form1.cs",
               "RelativeToolTip": "Ajastin\\Form1.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAkwDAAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwDEAAACLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T10:55:24.092Z",
               "EditorCaption": ""
@@ -42,8 +42,7 @@
               "ToolTip": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\Ajastin\\Ajastin\\Form1.cs [Design]",
               "RelativeToolTip": "Ajastin\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T10:49:16.761Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-10T10:49:16.761Z"
             }
           ]
         }

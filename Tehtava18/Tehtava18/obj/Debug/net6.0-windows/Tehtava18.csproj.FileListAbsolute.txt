@@ -1,0 +1,17 @@
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava18\Tehtava18\bin\Debug\net6.0-windows\Tehtava18.exe
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava18\Tehtava18\bin\Debug\net6.0-windows\Tehtava18.deps.json
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava18\Tehtava18\bin\Debug\net6.0-windows\Tehtava18.runtimeconfig.json
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava18\Tehtava18\bin\Debug\net6.0-windows\Tehtava18.dll
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava18\Tehtava18\bin\Debug\net6.0-windows\Tehtava18.pdb
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava18\Tehtava18\obj\Debug\net6.0-windows\Tehtava18.AvainhenkilotForm.resources
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava18\Tehtava18\obj\Debug\net6.0-windows\Tehtava18.csproj.GenerateResource.cache
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava18\Tehtava18\obj\Debug\net6.0-windows\Tehtava18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava18\Tehtava18\obj\Debug\net6.0-windows\Tehtava18.AssemblyInfoInputs.cache
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava18\Tehtava18\obj\Debug\net6.0-windows\Tehtava18.AssemblyInfo.cs
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava18\Tehtava18\obj\Debug\net6.0-windows\Tehtava18.csproj.CoreCompileInputs.cache
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava18\Tehtava18\obj\Debug\net6.0-windows\Tehtava18.sourcelink.json
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava18\Tehtava18\obj\Debug\net6.0-windows\Tehtava18.dll
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava18\Tehtava18\obj\Debug\net6.0-windows\refint\Tehtava18.dll
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava18\Tehtava18\obj\Debug\net6.0-windows\Tehtava18.pdb
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava18\Tehtava18\obj\Debug\net6.0-windows\Tehtava18.genruntimeconfig.cache
+C:\Users\samps\sorsa\C-_Graafinen\Tehtava18\Tehtava18\obj\Debug\net6.0-windows\ref\Tehtava18.dll

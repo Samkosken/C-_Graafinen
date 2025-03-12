@@ -42,12 +42,12 @@ namespace Ajastin
 
         private void AjastinTM_Tick(object sender, EventArgs e)
         {
-            if(kokonaisaika > 0)
+            if (kokonaisaika > 0)
             {
                 kokonaisaika--;
                 int minuutit = kokonaisaika / 60;
                 int sekunnit = kokonaisaika % 60;
-                AikaLB.Text = minuutit.ToString() + ":" + sekunnit.ToString();
+                AikaLB.Text = minuutit.ToString("D2") + ":" + sekunnit.ToString("D2"); // N‰ytet‰‰n aika aina muodossa MM:SS(double digits)
             }
             else
             {

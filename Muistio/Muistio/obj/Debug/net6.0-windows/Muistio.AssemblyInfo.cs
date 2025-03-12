@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Muistio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9469c8f16a19a716c552b53eeddd890373edefa7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c6ab98873fc0c24385dc806321c8e266ee4d197")]
 [assembly: System.Reflection.AssemblyProductAttribute("Muistio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Muistio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
