@@ -39,7 +39,24 @@ namespace HotelManagementSystem
             if(taulu.Rows.Count > 0)
             {
                 this.Hide();
+                paaikkunaForm plomake = new paaikkunaForm();
+                plomake.Show();
 
+            }
+            else
+            {
+                if (kayttajaTB.Text.Trim().Equals(""))
+                {
+                    MessageBox.Show("Syötä käyttäjänimesi", "Käyttäjänimi on tyhjä", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else if (salasanaTB.Text.Trim().Equals(""))
+                {
+                    MessageBox.Show("Syötä salasana", "Salasana on tyhjä", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    MessageBox.Show("Käyttäjänimi tai salasana on väärin", "Tietoja ei löydy", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
 
 

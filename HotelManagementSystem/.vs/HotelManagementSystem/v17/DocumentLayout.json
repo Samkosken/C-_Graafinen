@@ -3,28 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|c:\\users\\samps\\sorsa\\c-_graafinen\\hotelmanagementsystem\\hotelmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|solutionrelative:hotelmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|c:\\users\\samps\\sorsa\\c-_graafinen\\hotelmanagementsystem\\hotelmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|solutionrelative:hotelmanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|c:\\users\\samps\\sorsa\\c-_graafinen\\hotelmanagementsystem\\hotelmanagementsystem\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|solutionrelative:hotelmanagementsystem\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\hotelmanagementsystem\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|solutionrelative:hotelmanagementsystem\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|c:\\users\\samps\\sorsa\\c-_graafinen\\hotelmanagementsystem\\hotelmanagementsystem\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|solutionrelative:hotelmanagementsystem\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|c:\\users\\samps\\sorsa\\c-_graafinen\\hotelmanagementsystem\\hotelmanagementsystem\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|solutionrelative:hotelmanagementsystem\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|c:\\users\\samps\\sorsa\\c-_graafinen\\hotelmanagementsystem\\hotelmanagementsystem\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|solutionrelative:hotelmanagementsystem\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|c:\\users\\samps\\sorsa\\c-_graafinen\\hotelmanagementsystem\\hotelmanagementsystem\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|solutionrelative:hotelmanagementsystem\\class2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|c:\\users\\samps\\sorsa\\c-_graafinen\\hotelmanagementsystem\\hotelmanagementsystem\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\hotelmanagementsystem\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|solutionrelative:hotelmanagementsystem\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|c:\\users\\samps\\sorsa\\c-_graafinen\\hotelmanagementsystem\\hotelmanagementsystem\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|solutionrelative:hotelmanagementsystem\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\hotelmanagementsystem\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|solutionrelative:hotelmanagementsystem\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|c:\\users\\samps\\sorsa\\c-_graafinen\\hotelmanagementsystem\\hotelmanagementsystem\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|solutionrelative:hotelmanagementsystem\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\hotelmanagementsystem\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|solutionrelative:hotelmanagementsystem\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\hotelmanagementsystem\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{B09E8588-84FD-45C1-B5D3-355631C6C6FC}|HotelManagementSystem\\HotelManagementSystem.csproj|solutionrelative:hotelmanagementsystem\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,51 +50,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form5.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form5.cs",
-              "RelativeDocumentMoniker": "HotelManagementSystem\\Form5.cs",
-              "ToolTip": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form5.cs [Design]",
-              "RelativeToolTip": "HotelManagementSystem\\Form5.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T09:53:22.597Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Form4.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form4.cs",
-              "RelativeDocumentMoniker": "HotelManagementSystem\\Form4.cs",
-              "ToolTip": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form4.cs [Design]",
-              "RelativeToolTip": "HotelManagementSystem\\Form4.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T09:53:20.907Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Form3.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form3.cs",
-              "RelativeDocumentMoniker": "HotelManagementSystem\\Form3.cs",
-              "ToolTip": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form3.cs [Design]",
-              "RelativeToolTip": "HotelManagementSystem\\Form3.cs [Design]",
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form2.cs",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\Form2.cs",
+              "ToolTip": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form2.cs",
+              "RelativeToolTip": "HotelManagementSystem\\Form2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAADOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T09:53:18.158Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-04-07T07:44:51.102Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Class2.cs",
+              "DocumentMoniker": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Class2.cs",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\Class2.cs",
+              "ToolTip": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Class2.cs",
+              "RelativeToolTip": "HotelManagementSystem\\Class2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAACrAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T06:26:23.252Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form3.cs",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\Form3.cs",
+              "ToolTip": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form3.cs",
+              "RelativeToolTip": "HotelManagementSystem\\Form3.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T06:01:44.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\Form1.cs",
+              "ToolTip": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form1.cs",
+              "RelativeToolTip": "HotelManagementSystem\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T05:47:07.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form2.cs",
               "RelativeDocumentMoniker": "HotelManagementSystem\\Form2.cs",
@@ -90,7 +126,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "Form3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form3.cs",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\Form3.cs",
+              "ToolTip": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form3.cs [Design]",
+              "RelativeToolTip": "HotelManagementSystem\\Form3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T09:53:18.158Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Class1.cs",
               "RelativeDocumentMoniker": "HotelManagementSystem\\Class1.cs",
@@ -103,7 +151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form1.cs",
               "RelativeDocumentMoniker": "HotelManagementSystem\\Form1.cs",
@@ -111,6 +159,30 @@
               "RelativeToolTip": "HotelManagementSystem\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-03T09:52:52.803Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form4.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form4.cs",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\Form4.cs",
+              "ToolTip": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form4.cs [Design]",
+              "RelativeToolTip": "HotelManagementSystem\\Form4.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T09:53:20.907Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Form5.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form5.cs",
+              "RelativeDocumentMoniker": "HotelManagementSystem\\Form5.cs",
+              "ToolTip": "C:\\Users\\samps\\sorsa\\C-_Graafinen\\HotelManagementSystem\\HotelManagementSystem\\Form5.cs [Design]",
+              "RelativeToolTip": "HotelManagementSystem\\Form5.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-03T09:53:22.597Z",
               "EditorCaption": " [Design]"
             }
           ]

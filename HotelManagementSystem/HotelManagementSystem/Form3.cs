@@ -16,5 +16,27 @@ namespace HotelManagementSystem
         {
             InitializeComponent();
         }
+
+        private void paaikkunaForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void hallitseAsiakkaitaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            asiakkaidenHallintaForm ahlomeke = new asiakkaidenHallintaForm();
+            ahlomeke.ShowDialog();
+        }
+
+        private void hallitseVarauksiaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            varaustenHallintaForm vhlomake = new varaustenHallintaForm();
+            vhlomake.ShowDialog();
+        }
+
+        private void hallitseHuoneitaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Huoneikkuna hhlomake = new Huoneikkuna();
+        }
     }
 }
