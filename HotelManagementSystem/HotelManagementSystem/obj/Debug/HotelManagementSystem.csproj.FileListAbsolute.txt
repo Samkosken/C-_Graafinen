@@ -1,0 +1,9 @@
+C:\Users\samps\sorsa\C-_Graafinen\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.csproj.AssemblyReference.cache
+C:\Users\samps\sorsa\C-_Graafinen\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.kirjautumisForm.resources
+C:\Users\samps\sorsa\C-_Graafinen\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.asiakkaidenHallintaForm.resources
+C:\Users\samps\sorsa\C-_Graafinen\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.paaikkunaForm.resources
+C:\Users\samps\sorsa\C-_Graafinen\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.varaustenHallintaForm.resources
+C:\Users\samps\sorsa\C-_Graafinen\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.Huoneikkuna.resources
+C:\Users\samps\sorsa\C-_Graafinen\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.Properties.Resources.resources
+C:\Users\samps\sorsa\C-_Graafinen\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.csproj.GenerateResource.cache
+C:\Users\samps\sorsa\C-_Graafinen\HotelManagementSystem\HotelManagementSystem\obj\Debug\HotelManagementSystem.csproj.CoreCompileInputs.cache

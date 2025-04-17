@@ -31,7 +31,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.huoneetDG = new System.Windows.Forms.DataGridView();
             this.muokkaaBT = new System.Windows.Forms.Button();
             this.tyhjennaBT = new System.Windows.Forms.Button();
             this.poistaBT = new System.Windows.Forms.Button();
@@ -40,15 +40,15 @@
             this.eiRB = new System.Windows.Forms.RadioButton();
             this.kyllaRB = new System.Windows.Forms.RadioButton();
             this.puhelinTB = new System.Windows.Forms.TextBox();
-            this.huonetyyppiTB = new System.Windows.Forms.TextBox();
             this.huoneNroTB = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.huonetyyppiCB = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.huoneetDG)).BeginInit();
             this.panel3.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,14 +74,14 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.Green;
-            this.panel2.Controls.Add(this.dataGridView1);
+            this.panel2.Controls.Add(this.huonetyyppiCB);
+            this.panel2.Controls.Add(this.huoneetDG);
             this.panel2.Controls.Add(this.muokkaaBT);
             this.panel2.Controls.Add(this.tyhjennaBT);
             this.panel2.Controls.Add(this.poistaBT);
             this.panel2.Controls.Add(this.lisaaUusiHuoneBT);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.puhelinTB);
-            this.panel2.Controls.Add(this.huonetyyppiTB);
             this.panel2.Controls.Add(this.huoneNroTB);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
@@ -92,15 +92,16 @@
             this.panel2.Size = new System.Drawing.Size(1181, 448);
             this.panel2.TabIndex = 1;
             // 
-            // dataGridView1
+            // huoneetDG
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(535, 99);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(634, 332);
-            this.dataGridView1.TabIndex = 12;
+            this.huoneetDG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.huoneetDG.Location = new System.Drawing.Point(535, 99);
+            this.huoneetDG.Name = "huoneetDG";
+            this.huoneetDG.RowHeadersWidth = 51;
+            this.huoneetDG.RowTemplate.Height = 24;
+            this.huoneetDG.Size = new System.Drawing.Size(634, 332);
+            this.huoneetDG.TabIndex = 12;
+            this.huoneetDG.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.huoneetDG_CellClick);
             // 
             // muokkaaBT
             // 
@@ -111,6 +112,7 @@
             this.muokkaaBT.TabIndex = 11;
             this.muokkaaBT.Text = "Muokkaa";
             this.muokkaaBT.UseVisualStyleBackColor = true;
+            this.muokkaaBT.Click += new System.EventHandler(this.muokkaaBT_Click);
             // 
             // tyhjennaBT
             // 
@@ -121,6 +123,7 @@
             this.tyhjennaBT.TabIndex = 10;
             this.tyhjennaBT.Text = "Tyhjennä kentät";
             this.tyhjennaBT.UseVisualStyleBackColor = true;
+            this.tyhjennaBT.Click += new System.EventHandler(this.tyhjennaBT_Click);
             // 
             // poistaBT
             // 
@@ -131,6 +134,7 @@
             this.poistaBT.TabIndex = 9;
             this.poistaBT.Text = "Poista";
             this.poistaBT.UseVisualStyleBackColor = true;
+            this.poistaBT.Click += new System.EventHandler(this.poistaBT_Click);
             // 
             // lisaaUusiHuoneBT
             // 
@@ -141,6 +145,7 @@
             this.lisaaUusiHuoneBT.TabIndex = 8;
             this.lisaaUusiHuoneBT.Text = "Lisää uusi huone";
             this.lisaaUusiHuoneBT.UseVisualStyleBackColor = true;
+            this.lisaaUusiHuoneBT.Click += new System.EventHandler(this.lisaaUusiHuoneBT_Click);
             // 
             // panel3
             // 
@@ -183,14 +188,6 @@
             this.puhelinTB.Name = "puhelinTB";
             this.puhelinTB.Size = new System.Drawing.Size(207, 34);
             this.puhelinTB.TabIndex = 6;
-            // 
-            // huonetyyppiTB
-            // 
-            this.huonetyyppiTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.huonetyyppiTB.Location = new System.Drawing.Point(297, 142);
-            this.huonetyyppiTB.Name = "huonetyyppiTB";
-            this.huonetyyppiTB.Size = new System.Drawing.Size(207, 34);
-            this.huonetyyppiTB.TabIndex = 5;
             // 
             // huoneNroTB
             // 
@@ -240,6 +237,14 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Huoneen nro:";
             // 
+            // huonetyyppiCB
+            // 
+            this.huonetyyppiCB.FormattingEnabled = true;
+            this.huonetyyppiCB.Location = new System.Drawing.Point(297, 147);
+            this.huonetyyppiCB.Name = "huonetyyppiCB";
+            this.huonetyyppiCB.Size = new System.Drawing.Size(207, 24);
+            this.huonetyyppiCB.TabIndex = 13;
+            // 
             // Huoneikkuna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -249,11 +254,12 @@
             this.Controls.Add(this.panel1);
             this.Name = "Huoneikkuna";
             this.Text = "Huoneiden hallinta";
+            this.Load += new System.EventHandler(this.Huoneikkuna_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.huoneetDG)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.ResumeLayout(false);
@@ -272,13 +278,13 @@
         private System.Windows.Forms.RadioButton eiRB;
         private System.Windows.Forms.RadioButton kyllaRB;
         private System.Windows.Forms.TextBox puhelinTB;
-        private System.Windows.Forms.TextBox huonetyyppiTB;
         private System.Windows.Forms.TextBox huoneNroTB;
         private System.Windows.Forms.Button muokkaaBT;
         private System.Windows.Forms.Button tyhjennaBT;
         private System.Windows.Forms.Button poistaBT;
         private System.Windows.Forms.Button lisaaUusiHuoneBT;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView huoneetDG;
+        private System.Windows.Forms.ComboBox huonetyyppiCB;
     }
 }
