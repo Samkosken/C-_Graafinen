@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Data;
 using MySql.Data.MySqlClient;
 using Google.Protobuf.WellKnownTypes;
+using System.Windows.Forms;
 
 namespace HotelManagementSystem
 {
@@ -26,6 +27,7 @@ namespace HotelManagementSystem
             komento.Parameters.Add("@oso", MySqlDbType.VarChar).Value = osoite;
             komento.Parameters.Add("@pno", MySqlDbType.VarChar).Value = pnro;
             komento.Parameters.Add("@ptp", MySqlDbType.VarChar).Value = ppaikka;
+
             if (kayttaja != "")
             {
                 komento.Parameters.Add("@ktu", MySqlDbType.VarChar).Value = kayttaja.ToLower();
@@ -36,12 +38,13 @@ namespace HotelManagementSystem
             }
             if (ssana != "")
             {
-                komento.Parameters.Add("@snm", MySqlDbType.VarChar).Value = ssana;
+                komento.Parameters.Add("@ssa", MySqlDbType.VarChar).Value = ssana;
             }
             else
             {
-                komento.Parameters.Add("@snm", MySqlDbType.VarChar).Value = "12345";
+                komento.Parameters.Add("@ssa", MySqlDbType.VarChar).Value = "12345";
             }
+            
 
             yhteys.AvaaYhteys();
             if(komento.ExecuteNonQuery() == 1)
@@ -59,7 +62,7 @@ namespace HotelManagementSystem
 
         public DataTable HaeAsiakkaat()
         {
-            MySqlCommand komento = new MySqlCommand("SELECT etunimi, sukunimi, lahiosoite, postinumero, postitoimipaikka, kayttajanimi FROM asiakkaat", yhteys.OtaYhteys());
+            MySqlCommand komento = new MySqlCommand("SELECT asiakasid, etunimi, sukunimi, lahiosoite, postinumero, postitoimipaikka, kayttajanimi FROM asiakkaat", yhteys.OtaYhteys());
             MySqlDataAdapter adapteri = new MySqlDataAdapter();
             DataTable taulu = new DataTable();
 
@@ -72,8 +75,8 @@ namespace HotelManagementSystem
         public bool MuokkaaAsiakasta(String enimi, String snimi, String osoite, String pnro, String ppaikka, String ktunnus)
         {
             MySqlCommand komento = new MySqlCommand();
-            String paivitakysely = "UPDATE ´asiakkaat´ SET ´etunimi´= @enm" +
-                "´sukunimi´= @snm, ´lahiosoite´= @oso, ´postinumero´= @pno, ´postitoimipaikka´= @ptp" +
+            String paivitakysely = "UPDATE asiakkaat SET etunimi = @enm," +
+                "sukunimi = @snm, lahiosoite = @oso, postinumero = @pno, postitoimipaikka = @ptp" +
                 " WHERE kayttajanimi = @ktu";
             komento.CommandText = paivitakysely;
             komento.Connection = yhteys.OtaYhteys();
@@ -84,6 +87,7 @@ namespace HotelManagementSystem
             komento.Parameters.Add("@ptp", MySqlDbType.VarChar).Value = ppaikka;
             komento.Parameters.Add("@ktu", MySqlDbType.VarChar).Value = ktunnus;
 
+           
             yhteys.AvaaYhteys();
             if (komento.ExecuteNonQuery() == 1)
             {
@@ -100,7 +104,7 @@ namespace HotelManagementSystem
         public bool PoistaAsiakas(String ktunnus)
         {
             MySqlCommand komento = new MySqlCommand();
-            String poistakysely = "SELECT FROM asiakkaat WHERE kayttajanimi = @ktu";
+            String poistakysely = "DELETE FROM asiakkaat WHERE kayttajanimi = @ktu";
             komento.CommandText = poistakysely;
             komento.Connection = yhteys.OtaYhteys();
             komento.Parameters.Add("@ktu", MySqlDbType.VarChar).Value = ktunnus;

@@ -53,6 +53,7 @@ namespace HotelManagementSystem
                 {
                     MessageBox.Show("Uutta asiakasta ei pystytty päivittämään", "Asiakkaan muokkaus", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+                AsiakkaatDG.DataSource = asiakas.HaeAsiakkaat();
             }
         }
 
@@ -62,7 +63,7 @@ namespace HotelManagementSystem
             SukunimiTB.Text = AsiakkaatDG.CurrentRow.Cells[1].Value.ToString();
             lahiosoiteTB.Text = AsiakkaatDG.CurrentRow.Cells[2].Value.ToString();
             postinumeroTB.Text = AsiakkaatDG.CurrentRow.Cells[3].Value.ToString();
-            postinumeroTB.Text = AsiakkaatDG.CurrentRow.Cells[4].Value.ToString();
+            postipaikkaTB.Text = AsiakkaatDG.CurrentRow.Cells[4].Value.ToString();
             kayttajatunnusTB.Text = AsiakkaatDG.CurrentRow.Cells[5].Value.ToString();
         }
 
@@ -96,7 +97,7 @@ namespace HotelManagementSystem
             String ktunnus = kayttajatunnusTB.Text;
             String ssana = salasanaTB.Text;
 
-            if (enimi.Trim().Equals("") || snimi.Trim().Equals("") || osoite.Trim().Equals("") || pnro.Trim().Equals("") || ppaikka.Trim().Equals("") || ktunnus.Trim().Equals("") || ssana.Trim().Equals(""))
+            if (enimi.Trim().Equals("") || snimi.Trim().Equals("") || osoite.Trim().Equals("") || pnro.Trim().Equals("") || ppaikka.Trim().Equals(""))
             {
                 MessageBox.Show("VIRHE - Vaaditut kentät - Etu- ja sukunimi, Osoite, Postinumero, Postitoimipaikka", "Tyhjä kenttä", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
@@ -106,11 +107,12 @@ namespace HotelManagementSystem
                 if (lisaaAsiakas)
                 {
                     MessageBox.Show("Uusi asiakas lisätty onnistuneesti", "Asiakkaan lisäys", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                }
+                } 
                 else
                 {
                     MessageBox.Show("Uutta asiakasta ei pystytty lisäämään", "Asiakkaan lisäys", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
+                AsiakkaatDG.DataSource = asiakas.HaeAsiakkaat();
             }
         }
     }

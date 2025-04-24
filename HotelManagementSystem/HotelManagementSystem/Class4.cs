@@ -16,14 +16,14 @@ namespace HotelManagementSystem
         {
             MySqlCommand komento = new MySqlCommand();
             String lisayskysele = "INSERT INTO huonenumerot " +
-                "(huonenumero, huonetyyppi, puhelin, vapaa) " +
+                "(huoneennumero, huonetyyppi, puhelin, vapaa) " +
                 "VALUES (@hnr, @hty, @puh, @vap); ";
             komento.CommandText = lisayskysele;
             komento.Connection = yhteys.OtaYhteys();
             komento.Parameters.Add("@hnr", MySqlDbType.VarChar).Value = hunumero;
-            komento.Parameters.Add("@hty", MySqlDbType.Date).Value = hutyyppi;
-            komento.Parameters.Add("@´puh", MySqlDbType.Date).Value = puhelin;
-            komento.Parameters.Add("@vap", MySqlDbType.Date).Value = vapaa;
+            komento.Parameters.Add("@hty", MySqlDbType.VarChar).Value = hutyyppi;
+            komento.Parameters.Add("@puh", MySqlDbType.VarChar).Value = puhelin;
+            komento.Parameters.Add("@vap", MySqlDbType.VarChar).Value = vapaa;
 
 
             yhteys.AvaaYhteys();
@@ -42,7 +42,7 @@ namespace HotelManagementSystem
 
         public DataTable HaeHuoneet()
         {
-            MySqlCommand komento = new MySqlCommand("SELECT huonenumero, huonetyyppi, puhelin, vapaa FROM huonenumerot", yhteys.OtaYhteys());
+            MySqlCommand komento = new MySqlCommand("SELECT huoneennumero, huonetyyppi, puhelin, vapaa FROM huonenumerot", yhteys.OtaYhteys());
             MySqlDataAdapter adapteri = new MySqlDataAdapter();
             DataTable taulu = new DataTable();
 
@@ -67,15 +67,15 @@ namespace HotelManagementSystem
         public bool MuokkaaHuone(String hunumero, String hutyyppi, String puhelin, String vapaa)
         {
             MySqlCommand komento = new MySqlCommand();
-            String paivitakysely = "UPDATE ´huonenumerot´ SET ´huonetyyppi´= @hty" +
-                "´puhelin´= @puh, ´vapaa´= @vap" +
-                " WHERE huonenumero = @hnr";
+            String paivitakysely = "UPDATE huonenumerot SET huonetyyppi = @hty," +
+                "puhelin = @puh, vapaa = @vap" +
+                " WHERE huoneennumero = @hnr";
             komento.CommandText = paivitakysely;
             komento.Connection = yhteys.OtaYhteys();
             komento.Parameters.Add("@hnr", MySqlDbType.VarChar).Value = hunumero;
             komento.Parameters.Add("@hty", MySqlDbType.VarChar).Value = hutyyppi;
             komento.Parameters.Add("@puh", MySqlDbType.VarChar).Value = puhelin;
-            komento.Parameters.Add("@vap", MySqlDbType.Date).Value = vapaa;
+            komento.Parameters.Add("@vap", MySqlDbType.VarChar).Value = vapaa;
             
 
             yhteys.AvaaYhteys();
@@ -94,7 +94,7 @@ namespace HotelManagementSystem
         public bool PoistaHuone(String hunumero)
         {
             MySqlCommand komento = new MySqlCommand();
-            String poistakysely = "SELECT FROM huonenumerot WHERE huonenumero = @hnr";
+            String poistakysely = "DELETE FROM huonenumerot WHERE huoneennumero = @hnr";
             komento.CommandText = poistakysely;
             komento.Connection = yhteys.OtaYhteys();
             komento.Parameters.Add("@hnr", MySqlDbType.VarChar).Value = hunumero;
@@ -114,7 +114,7 @@ namespace HotelManagementSystem
 
         public DataTable TyypillisetHuoneet(int htype)
         {
-            MySqlCommand komento = new MySqlCommand
+            MySqlCommand komento = new MySqlCommand();
             String lisayskysely = "SELECT * FROM huonenumerot WHERE huonetyyppi = @hty";
             komento.CommandText = lisayskysely;
             komento.Connection = yhteys.OtaYhteys();

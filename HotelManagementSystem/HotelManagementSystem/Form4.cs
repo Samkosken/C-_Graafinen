@@ -4,9 +4,11 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Google.Protobuf.WellKnownTypes;
 
 namespace HotelManagementSystem
 {
@@ -22,13 +24,13 @@ namespace HotelManagementSystem
 
         private void lisaaUusiVarausBT_Click(object sender, EventArgs e)
         {
-            String asnumero = asiakasnroCB.SelectedValue.ToString();
-            String hunumero = huonenroCB.SelectedValue.ToString();
+            int asnumero = Convert.ToInt32(asiakasnroCB.SelectedValue.ToString());
+            int hunumero = Convert.ToInt32(huonenroCB.SelectedValue.ToString());
             DateTime ulos = Convert.ToDateTime(ulosDTP.Value);
             DateTime sisaan = Convert.ToDateTime(sisaanDTP.Value);
            
 
-            if (varaus.LisaaVarus(hunumero, asnumero, ulos, sisaan))
+            if (varaus.LisaaVarus(asnumero, hunumero, ulos, sisaan))
             {
                 MessageBox.Show("Varaus lisätty onnistuneesti", "Varauksen lisäys", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -41,7 +43,7 @@ namespace HotelManagementSystem
 
         private void tyhjennaBT_Click(object sender, EventArgs e)
         {
-            varausnroCB.SelectedIndex = 0;
+            varausnumeroTB.Text = "";
             asiakasnroCB.SelectedIndex = 0;
             huonetyyppiCB.SelectedIndex = 0;
             huonenroCB.SelectedIndex = 0;
@@ -51,14 +53,14 @@ namespace HotelManagementSystem
 
         private void muokkaaBT_Click(object sender, EventArgs e)
         {
-            String asnumero = asiakasnroCB.SelectedValue.ToString();
-            String hunumero = huonenroCB.SelectedValue.ToString();
+            int asnumero = Convert.ToInt32(asiakasnroCB.SelectedValue.ToString());
+            int hunumero = Convert.ToInt32(huonenroCB.SelectedValue.ToString());
             DateTime ulos = Convert.ToDateTime(ulosDTP.Value);
             DateTime sisaan = Convert.ToDateTime(sisaanDTP.Value);
             try
             {
-                string vara = varausnumeroTB.Text;
-                if(varaus.MuokkaaVarausta(hunumero, asnumero, sisaan, ulos, vara))
+                int vrnumero = Convert.ToInt32(varausnumeroTB.Text);
+                if(varaus.MuokkaaVarausta(hunumero, asnumero, sisaan, ulos, vrnumero))
                 {
                     MessageBox.Show("Varaus päivitetty onnistuneesti", "Varauksen muokkaus", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
@@ -70,7 +72,7 @@ namespace HotelManagementSystem
             }
             catch (Exception ex)
             {
-            MessageBox.Show("VIRHE: " +  ex.Message, "Huoneen numero virhe", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                MessageBox.Show("VIRHE: " + ex.Message, "Huoneen numero virhe", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             varauksetDG.DataSource = varaus.HaeVaraukset();
 
@@ -80,27 +82,36 @@ namespace HotelManagementSystem
 
         private void varauksetDG_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            varausNroTB.Text = varauksetDG.CurrentRow.Cells[0].Value.ToString();
-            asiakasNroTB.Text = varauksetDG.CurrentRow.Cells[1].Value.ToString();
-            huoneenNroTB.Text = varauksetDG.CurrentRow.Cells[2].Value.ToString();
-            sisaanDTP.Text = varauksetDG.CurrentRow.Cells[3].Value.ToString();
-            ulosDTP.Text = varauksetDG.CurrentRow.Cells[4].Value.ToString();
+            varausnumeroTB.Text = varauksetDG.CurrentRow.Cells[0].Value.ToString();
+            asiakasnroCB.SelectedValue = varauksetDG.CurrentRow.Cells[1].Value.ToString();
+            huonenroCB.SelectedValue = varauksetDG.CurrentRow.Cells[2].Value.ToString();
+            sisaanDTP.Value = Convert.ToDateTime(varauksetDG.CurrentRow.Cells[3].Value);
+            ulosDTP.Value = Convert.ToDateTime(varauksetDG.CurrentRow.Cells[4].Value);
             
         }
 
         private void poistaBT_Click(object sender, EventArgs e)
         {
+            
             String vrnumero = varausnumeroTB.Text;
-            if (varaus.PoistaVaraus(vrnumero))
+            if (vrnumero.Equals(""))
             {
-                varauksetDG.DataSource = varaus.HaeVaraukset();
-                MessageBox.Show("Varaus poistettu onnistuneesti", "Varauksen poisto", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("VIRHE - Vaaditut kentät - Varausnumero", "Tyhjä kenttä", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             else
             {
-                MessageBox.Show("Varausta ei pystytty poistamaan", "Varauksen poisto", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                if (varaus.PoistaVaraus(vrnumero))
+                {
+                    varauksetDG.DataSource = varaus.HaeVaraukset();
+                    MessageBox.Show("Varaus poistettu onnistuneesti", "Varauksen poisto", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    MessageBox.Show("Varausta ei pystytty poistamaan", "Varauksen poisto", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                tyhjennaBT.PerformClick();
+
             }
-            tyhjennaBT.PerformClick();
         }
 
         private void varaustenHallintaForm_Load(object sender, EventArgs e)
@@ -110,9 +121,8 @@ namespace HotelManagementSystem
             huonetyyppiCB.ValueMember = "kategoriaid";
 
             asiakasnroCB.DataSource = asiakas.HaeAsiakkaat();
-            asiakasnroCB.DisplayMember = "etunimi" + "sukunimi";
+            asiakasnroCB.DisplayMember = "etunimi";
             asiakasnroCB.ValueMember = "asiakasid";
-
             varauksetDG.DataSource = varaus.HaeVaraukset();
         }
 

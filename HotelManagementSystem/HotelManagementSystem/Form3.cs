@@ -37,6 +37,7 @@ namespace HotelManagementSystem
         private void hallitseHuoneitaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Huoneikkuna hhlomake = new Huoneikkuna();
+            hhlomake.ShowDialog();
         }
     }
 }
